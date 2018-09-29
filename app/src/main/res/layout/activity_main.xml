@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:orientation="vertical"
+    android:background="#d7fce7"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et_rmb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="RMB"
+        android:textColor="#f29b04"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv_money"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="money"
+        android:gravity="center"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/btn_doller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#ff7300"
+        android:onClick="calculate"
+        android:text="DOLLER"
+        android:textColor="#380bed" />
+    <Button
+        android:id="@+id/btn_euor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EUOR"
+        android:layout_margin="10dp"
+        android:background="#ff7300"
+        android:textColor="#380bed"
+        android:onClick="calculate"/>
+    <Button
+        android:id="@+id/btn_won"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WON"
+        android:layout_margin="10dp"
+        android:background="#ff7300"
+        android:textColor="#380bed"
+        android:onClick="calculate"/>
+
+    <Button
+        android:id="@+id/btn_config"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="config"
+        android:background="#ff7300"
+        android:textColor="#380bed"
+        android:onClick="openOne"/>
+</LinearLayout>

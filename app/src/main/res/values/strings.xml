@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="menu_set_label">save</string>
+    <string name="dollar">dollar</string>
+    <string name="euro">euro</string>
+    <string name="won">won</string>
+    <string name="openOne">openOne</string>
+
 </resources>

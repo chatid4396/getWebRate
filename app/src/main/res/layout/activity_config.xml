@@ -5,17 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="15dp"
-    android:background="#d7f9a5"
     android:orientation="vertical"
     >
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:background="#f2bf8c"
         android:layout_margin="10dp"
         android:textSize="25sp"
         android:id="@+id/dollar_rate"
+        android:background="#c9c5c1"
         android:inputType="numberDecimal" />
     <EditText
         android:layout_width="match_parent"
@@ -24,7 +23,7 @@
         android:ems="10"
         android:textSize="25sp"
         android:layout_margin="10dp"
-        android:background="#f2bf8c"
+        android:background="#c9c5c1"
         android:id="@+id/euro_rate" />
 
     <EditText
@@ -34,13 +33,13 @@
         android:ems="10"
         android:layout_margin="10dp"
         android:textSize="25sp"
-        android:background="#f2bf8c"
+        android:background="#c9c5c1"
         android:id="@+id/won_rate" />
     <Button
         android:text="Save"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="save"
-        android:background="#ff6200"
+        android:background="#00ffe1"
         android:id="@+id/btn_save" />
 </LinearLayout>
